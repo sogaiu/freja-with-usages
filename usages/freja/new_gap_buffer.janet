@@ -399,3 +399,153 @@
 
   )
 
+# delete-before-caret!
+(comment
+
+  )
+
+# delete-word-forward!
+(comment
+
+  )
+
+# delete-word-backward!
+(comment
+
+  )
+
+# delete-after-caret!
+(comment
+
+  )
+
+# backward!
+(comment
+
+  )
+
+# replace-content
+(comment
+
+  )
+
+# append-char*
+(comment
+
+  )
+
+# append-string!
+(comment
+
+  )
+
+# insert-string-at-caret!
+(comment
+
+  )
+
+# insert-char!
+(comment
+
+  )
+
+# insert-char-upper!
+(comment
+
+  )
+
+# forward-word
+(comment
+
+  )
+
+# backward-word
+(comment
+
+  )
+
+# end-of-buffer
+(comment
+
+  )
+
+# beginning-of-buffer
+(comment
+
+  )
+
+# forward-char
+(comment
+
+  )
+
+# backward-char
+(comment
+
+  )
+
+# move-n
+(comment
+
+  )
+
+# copy
+(comment
+
+  )
+
+# cut!
+(comment
+
+  )
+
+# paste!
+(comment
+
+  )
+
+# undo!
+(comment
+
+  )
+
+# redo!
+(comment
+
+  )
+
+# content
+(comment
+
+  )
+
+# find-surrounding-paragraph!
+(comment
+
+  )
+
+# gb-find-forward!
+(comment
+
+  )
+
+# gb-find2!
+(comment
+
+  )
+
+# gb-find-backward!
+(comment
+
+  )
+
+# index-of-line
+(comment
+
+  )
+
+# new-gap-buffer
+(comment
+
+  )
+
