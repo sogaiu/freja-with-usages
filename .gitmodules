@@ -1,0 +1,6 @@
+[submodule "freja"]
+	path = freja
+	url = https://github.com/saikyun/freja
+[submodule "janet-usages-as-tests"]
+	path = janet-usages-as-tests
+	url = https://github.com/sogaiu/janet-usages-as-tests
