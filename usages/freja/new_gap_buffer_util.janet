@@ -15,7 +15,7 @@
 
   # XXX: why are :caret, :gap-{start,stop} 1?
   (ngbu/string->gb "0")
-  # =>
+  # = disabled >
   @{:actions @[]
     :caret 1
     :gap @""
