@@ -28,7 +28,7 @@ adjustment.
 To examine and interact with a "usage" - say via emacs + bash - try:
 
 * `cd freja-with-usages` -- if not already in the repository root
-* `JANET_PATH=$(pwd)/jpm_tree/lib emacs freja/usages/events.janet`
+* `jpm -l exec emacs freja/usages/events.janet`
 * Evaluate a form that is immediately before a `# =>`
 * Compare the result with the value of the expression after the `# =>`
 * Possibly notice a change in your mental model(s)
