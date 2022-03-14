@@ -110,6 +110,7 @@ appropriate usage in this repository might help clarify things.
 
 ## Credits
 
+* bakpakin
 * elimisteve
 * saikyun
 
