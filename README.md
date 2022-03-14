@@ -28,7 +28,7 @@ adjustment.
 To examine and interact with a "usage" - say via emacs + bash - try:
 
 * `cd freja-with-usages` -- if not already in the repository root
-* `JANET_PATH=$(pwd)/freja/jpm_tree/lib emacs freja/usages/events.janet`
+* `JANET_PATH=$(pwd)/jpm_tree/lib emacs freja/usages/events.janet`
 * Evaluate a form that is immediately before a `# =>`
 * Compare the result with the value of the expression after the `# =>`
 * Possibly notice a change in your mental model(s)
@@ -77,10 +77,10 @@ Usages can also be modified to experiment and explore as well.  The
 hope is that this type of activity is likely to improve one's
 understanding of freja's functions.
 
-On a side note, invoking `jpm --tree=$(pwd)/freja/jpm_tree test` from
-the repository root directory should execute all usages and produce
-output summarizing successes / failures.  This can be used to increase
-the chance that the usages stay up-to-date.
+On a side note, invoking `jpm -l test` from the repository root
+directory should execute all usages and produce output summarizing
+successes / failures.  This can be used to increase the chance that
+the usages stay up-to-date.
 
 ## Background
 
