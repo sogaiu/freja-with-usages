@@ -1,4 +1,4 @@
-(import ../../freja/freja/collision :as c)
+(import freja/collision :as c)
 
 # in-rec?
 (comment

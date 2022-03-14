@@ -51,7 +51,8 @@ Looking earlier in the file, we might [find](https://github.com/saikyun/freja/bl
 
 That corresponds to an import of `freja/collision.janet` in freja.
 
-Looking at the file `usages/freja/collision.janet` in the `freja-with-usages` repository there is:
+Looking at the file `usages/freja/collision.janet` in the `freja-with-usages`
+repository there is:
 
 ```
 (c/in-rec? [5 5] [0 0 10 10])
@@ -71,9 +72,15 @@ and an expression after the `# =>` representing the expected value:
 true
 ```
 
-Such individual usages can be executed via one's editor or REPL.  Usages can also be modified to experiment and explore as well.  The hope is that this type of activity is likely to improve one's understanding of freja's functions.
+Such individual usages can be executed via one's editor or REPL.
+Usages can also be modified to experiment and explore as well.  The
+hope is that this type of activity is likely to improve one's
+understanding of freja's functions.
 
-On a side note, invoking `jpm test` from the repository root directory should execute all usages and produce output summarizing successes / failures.  This can be used to increase the chance that the usages stay up-to-date.
+On a side note, invoking `jpm --tree=$(pwd)/freja/jpm_tree test` from
+the repository root directory should execute all usages and produce
+output summarizing successes / failures.  This can be used to increase
+the chance that the usages stay up-to-date.
 
 ## Background
 

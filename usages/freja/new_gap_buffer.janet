@@ -1,5 +1,5 @@
-(import ../../freja/freja/new_gap_buffer :as ngb)
-(import ../../freja/freja/new_gap_buffer_util :as ngbu)
+(import freja/new_gap_buffer :as ngb)
+(import freja/new_gap_buffer_util :as ngbu)
 
 # min*
 (comment

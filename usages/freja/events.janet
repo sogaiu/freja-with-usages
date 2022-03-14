@@ -1,4 +1,4 @@
-(import ../../freja/freja/events :as e)
+(import freja/events :as e)
 
 # pop
 (comment

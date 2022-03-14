@@ -1,4 +1,4 @@
-(import ../../freja/freja/new_gap_buffer_util :as ngbu)
+(import freja/new_gap_buffer_util :as ngbu)
 
 # string->gb
 (comment

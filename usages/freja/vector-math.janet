@@ -1,4 +1,4 @@
-(import ../../freja/freja/vector-math :as v)
+(import freja/vector-math :as v)
 
 # dist-sqr
 (comment

@@ -1,6 +1,6 @@
 # XXX: the "real" freja-jaylib is "hooked" via freja-jaylib.janet
-(import ../../freja/freja/frp)
-(import ../../support/bounded-queue :as bq)
+(import freja/frp)
+(import bounded-queue :as bq)
 
 # trigger
 (comment
