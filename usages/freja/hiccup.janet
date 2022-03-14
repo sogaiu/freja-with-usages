@@ -1,21 +1,22 @@
-(import freja-jaylib :as fj)
-
 (import freja/hiccup :as h)
+# XXX: unobvious prerequisites
+(import freja-jaylib :as fj)
 (import freja/fonts)
 (import freja/assets)
 
 (comment
 
-  (do 
+  # use `do` for convenience and to prevent overwhelming output
+  (do
     # XXX: necessary for font stuff -- core dumps if not done
     (fj/init-window 1 1 "hiccup new-layer usage")
-    # following lives in `do` to prevent overwhelming output
+    # XXX: new-layer call fails without this
     (assets/register-font "Poppins"
                           :style :regular
                           :ext ".otf"
                           :data fonts/poppins)
     1)
-  
+
   (def props @{})
 
   (defn sample-hiccup
@@ -29,7 +30,7 @@
                  sample-hiccup
                  props
                  :text/size 22
-                 # XXX: without next 2 things, doesn't work
+                 # XXX: without next 2 pairs, new-layer fails
                  :max-width 100
                  :max-height 100))
 
@@ -52,7 +53,7 @@
        :text/size 1}
       keys
       sort)
-  
+
   (-> (a-layer :root)
       keys
       sort)
