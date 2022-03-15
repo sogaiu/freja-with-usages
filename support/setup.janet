@@ -39,7 +39,7 @@
   (print)
   (print "Start editor (e.g. emacs) like:")
   (print)
-  (print "  JANET_PATH=$(pwd)/jpm_tree/lib emacs usages/freja")
+  (print "  jpm -l exec emacs usages/freja")
   #
   (os/exit 0))
 
