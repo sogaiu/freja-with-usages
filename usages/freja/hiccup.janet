@@ -1,21 +1,18 @@
 (import freja/hiccup :as h)
-# XXX: unobvious prerequisites
-(import freja-jaylib :as fj)
-(import freja/fonts)
-(import freja/assets)
+# XXX: unobvious prerequisite
+(import freja/assets :as a)
 
 (comment
 
-  # use `do` for convenience and to prevent overwhelming output
+  # various things needed for tree compilation to succeed
   (do
-    # XXX: necessary for font stuff -- core dumps if not done
-    (fj/init-window 1 1 "hiccup new-layer usage")
-    # XXX: new-layer call fails without this
-    (assets/register-font "Poppins"
-                          :style :regular
-                          :ext ".otf"
-                          :data fonts/poppins)
-    1)
+    # fake font
+    (setdyn :text/font "Font-Shim")
+    (put a/fonts "Font-Shim"
+         @{:regular @{22 :regular}
+           :default-style :regular})
+    # get measure-text-ex to work without using init-window
+    (setdyn :measure-text-ex [22 22]))
 
   (def props @{})
 

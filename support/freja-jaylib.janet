@@ -13,6 +13,7 @@
 (def fj/get-mouse-wheel-move get-mouse-wheel-move)
 (def fj/get-screen-height get-screen-height)
 (def fj/get-screen-width get-screen-width)
+(def fj/measure-text-ex measure-text-ex)
 
 ###########################################################################
 
@@ -70,4 +71,11 @@
   (if-let [sh (dyn :screen-width)]
     sh
     (fj/get-screen-width)))
+
+# XXX: change other dynamic variable names to reflect function names too?
+(defn measure-text-ex
+  [& args]
+  (if-let [mte (dyn :measure-text-ex)]
+    mte
+    (fj/measure-text-ex ;args)))
 
