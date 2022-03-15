@@ -51,6 +51,33 @@
       keys
       sort)
 
+  # compilation results
+  (-> ((a-layer :compile) a-layer (a-layer :props))
+      keys
+      sort)
+  # =>
+  (-> @{:children 1
+        :compilation/children 1
+        :compilation/f 1
+        :compilation/props 1
+        :content-max-height 1
+        :content-max-width 1
+        :definite-sizing 1
+        :f 1
+        :height 1
+        :inner/element 1
+        :layout/lines 1
+        :min-height 1
+        :min-width 1
+        :offset 1
+        :props 1
+        :relative-sizing 1
+        :sizing 1
+        :tag 1
+        :width 1}
+      keys
+      sort)
+
   (-> (a-layer :root)
       keys
       sort)
